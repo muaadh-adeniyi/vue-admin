@@ -33,8 +33,6 @@
   object-fit: cover;
   height: 70px;
   border: 3px solid blue;
-  // flex-direction: column;
-  // align-items: center;
   justify-content: center;
   margin-left: 50px;
   margin-top: -30px;
@@ -43,7 +41,6 @@
 .profile-div{
   display: flex;
   flex-direction: column;
-  // align-items: center;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 1rem;

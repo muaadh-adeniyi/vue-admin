@@ -75,14 +75,13 @@ onBeforeUnmount(() => {
   margin-bottom: 1rem;
 }
 
-/* Each mini chart canvas: full width and moderate height */
 .card-body canvas {
   width: 80% ;
   height: 250px ;
   border-radius: 8px;
-  background: #e6f0ff; /* subtle light blue background */
+  background: #e6f0ff; 
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
   display:flex;
-  /* align-items: center; */
+
 }
 </style>

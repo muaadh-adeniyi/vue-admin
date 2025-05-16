@@ -23,7 +23,6 @@ import { Chart, registerables } from 'chart.js';
 
 Chart.register(...registerables);
 
-// Ref for the canvas element
 const chartCanvas = ref(null);
 
 onMounted(() => {
@@ -69,7 +68,6 @@ onMounted(() => {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
   height: 300px;
-  /* width: 60%; */
 }
 
 .graph-title {
@@ -81,14 +79,8 @@ onMounted(() => {
 
 .graph-container {
   height: 200px;
-  /* //position: relative; */
-  /* margin-bottom: 1.5rem; */
 }
 
-/* canvas {
-  //width: 100% !important;
-  //height: 100% !important;
-} */
 
 .metrics {
   display: flex;

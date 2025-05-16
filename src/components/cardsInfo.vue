@@ -22,7 +22,7 @@ defineProps({
   height: 70px;
   background-color: lightblue; 
   border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08); /* Subtle shadow */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08); 
   display: flex;
   flex-direction: column;
   align-items: start; 
@@ -32,8 +32,8 @@ defineProps({
 }
 
 .card-icon {
-  font-size: 2rem; /* Adjust icon size */
-  color: #007bff; /* Primary blue color */
+  font-size: 2rem; 
+  color: #007bff; 
   margin-bottom: 8px;
 }
 

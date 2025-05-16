@@ -55,23 +55,18 @@
 .creative-table {
   width: 100%;
   border-collapse: collapse;
-  // margin-top: 200px;
   margin-right: 50px;
-  //box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  // padding: 20px;
 }
 
 .creative-table th,
 .creative-table td {
   padding: 8px 60px;
   text-align: left;
-  // line-height: 1.2;
 }
 
 .creative-table th {
   background-color: #123ABC;
   color: white;
-  // font-size: 1.1rem;
   font-weight: bold;
 }
 
@@ -104,6 +99,5 @@
   padding: 20px;
   border-radius: 15px;
   border-radius: 12px;
-  // box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 </style>

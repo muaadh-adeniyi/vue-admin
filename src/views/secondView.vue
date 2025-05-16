@@ -1,8 +1,6 @@
 <template>
   <div class="second-page">
     <div class="top-bar">
-      <!-- <h1>Hello</h1>
-      <h1>Hello</h1> -->
     </div>
     <div class="cards-container">
       <cardsInfo

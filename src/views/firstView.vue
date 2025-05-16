@@ -28,7 +28,6 @@ import firstChart from '@/components/firstChart.vue';
 import sideBar from '@/components/sideBar.vue';
 import topTable from '@/components/topTable.vue';
 import patientsInfo from '@/components/patientsInfo.vue';
-// import latestReview from '@/components/latestReview.vue';
 import latestReports from '@/components/latestReports.vue';
 </script>
 
@@ -36,7 +35,6 @@ import latestReports from '@/components/latestReports.vue';
 .first-page {
   display: flex;
   height: 100vh;
-  // overflow: no];
 }
 
 .content-area {
@@ -51,7 +49,7 @@ import latestReports from '@/components/latestReports.vue';
 
 sideBar {
   width: 700px;
-  background-color: #2d3e50; // example background
+  background-color: #2d3e50; 
   flex-shrink: 0;
 }
 
@@ -66,11 +64,9 @@ sideBar {
   flex: 1;
   background: white; 
   padding: 1rem;
-  // border-radius: 8px;
 }
 
 .second-row > div:first-child{
-  // flex: 0.5;
   width: 70%;
   background-color: white;
 

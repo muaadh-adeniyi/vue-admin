@@ -15,8 +15,6 @@
       <a href="#">Analytics</a>
       <a href="#">Settings</a>
     </nav>
-
-
   </aside>
 </template>
 
@@ -35,7 +33,6 @@
   align-items: center;
   padding: 2rem 1rem;
   color: white;
-  //  position: fixed
 }
 
 #top-image {

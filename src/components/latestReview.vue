@@ -36,8 +36,7 @@ const latestReviews = ref([
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
   padding: 15px;
   min-height: 50vh;
-  /* flex: 1; Allow it to take up available space */
-  min-width: 250px; /* Adjust as needed */
+  min-width: 250px; 
 }
 
 .latest-reviews-card h3 {
@@ -84,7 +83,7 @@ const latestReviews = ref([
 }
 
 .download-button {
-  background-color: #28a745; /* Green download button */
+  background-color: #28a745; 
   color: white;
   border: none;
   padding: 8px 12px;

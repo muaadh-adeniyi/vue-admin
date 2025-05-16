@@ -88,15 +88,15 @@ onBeforeUnmount(() => {
 
 .card-body {
   display: flex;
-  flex-direction: column; /* stack vertically */
-  gap: 1rem; /* spacing between charts */
+  flex-direction: column; 
+  gap: 1rem; 
 }
 
 .card-body canvas {
   width: 100%;
-  height: 150px; /* fixed height */
+  height: 150px;
   border-radius: 8px;
-  background: #e6f0ff; /* subtle light blue background */
+  background: #e6f0ff; 
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 </style>

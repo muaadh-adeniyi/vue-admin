@@ -84,7 +84,6 @@ onBeforeUnmount(() => {
   padding: 16px;
   box-shadow: 0 1px 4px rgba(0,0,0,0.1);
   width: 100%;
-  /* width: 400px; */
   margin-top: 20px;
 }
 .card-header h3 {
@@ -94,11 +93,10 @@ onBeforeUnmount(() => {
 }
 .card-body {
   display: flex;
-  flex-direction: column; /* stack vertically */
-  gap: 1rem; /* spacing between charts */
+  flex-direction: column; 
+  gap: 1rem; 
 }
 
-/* Each mini chart canvas: full width and moderate height */
 .card-body canvas {
   width: 100% !important;
   height: 150px !important;
